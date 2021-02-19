@@ -5,6 +5,9 @@
 tablas::tablas(){
 	
 }
+tablas::~tablas(){
+	
+}
 tablas::tablas(vector<equipos>_equiposs){
 this->equiposs=_equiposs;
 }

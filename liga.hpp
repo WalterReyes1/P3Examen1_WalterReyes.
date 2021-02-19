@@ -18,9 +18,9 @@ class liga{
     	~liga();
     	
     	string getNombre();
-		vector<equipos> getLista_e;
-		vector<jornadas> getLista_j;
-		tablas getTa1;
+		vector<equipos>getLista_e();
+		vector<jornadas>getLista_j();
+		tablas getTa1();
 		void setNombre(string);
 		void setLista_e(vector<equipos>);
 		void setLista_j(vector<jornadas>);
